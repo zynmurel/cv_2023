@@ -216,6 +216,6 @@ body{
 
 @media screen and (max-width: 750px){
     .resume{
-    transform: scale(.6) translateY(-35%);
+    transform: scale(.8) translateY(-14%);
   }  
 }
