@@ -215,7 +215,7 @@ body{
 
 
 @media screen and (max-width: 750px) and (min-height: 1000px){
-   /* .resume{
-    transform: scale(.7) translate(-20%);
-  }  */
+    .resume{
+    transform: scale(.6) translateY(-35%);
+  }  
 }
