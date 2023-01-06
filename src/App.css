@@ -23,7 +23,7 @@ body{
 .resume{
   width: 800px;
   height: 1200px;
-  margin: 20px;
+  margin: 20px 0;
 }
 .self{
   background-color: #184b6d;
