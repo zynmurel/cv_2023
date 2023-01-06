@@ -17,17 +17,18 @@ body{
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
-  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
 }
 .resume{
-  width: 800px;
+  width: 750px;
   height: 1200px;
   margin: 20px 0;
 }
 .self{
   background-color: #184b6d;
-  width: 800px;
+  width: 750px;
   height: 30%;
   display: flex;
   align-items: center;
@@ -40,7 +41,7 @@ body{
   position: absolute;
 }
 .intro{
-  width: 800px;
+  width: 750px;
   height: 450px;
   display: flex;
   align-items: end;
@@ -56,16 +57,16 @@ body{
   justify-content: center;
   width: 100%;
   height: 170px;
-  font-size: 30px;
+  font-size: 25px;
 }
 .intro1 h1{
   margin: 0;
-  margin-left: 320px;
+  margin-left: 338px;
   margin-top: -10px;
 }
 .intro h5{
   margin:0;
-  margin-left: 325px;
+  margin-left: 343px;
 }
 .intro2{
   background-color: #00233a;
@@ -88,7 +89,7 @@ body{
 
 
 .infos{
-  width: 800px;
+  width: 750px;
   height: 70%;
   display: flex;
   flex-direction: row;
@@ -213,3 +214,8 @@ body{
 }
 
 
+@media screen and (max-width: 750px) and (min-height: 1000px){
+   /* .resume{
+    transform: scale(.7) translate(-20%);
+  }  */
+}
