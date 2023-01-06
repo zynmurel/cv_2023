@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.resume{
+  width: 800px;
+  height: 1200px;
+  margin: 20px;
+}
+.self{
+  background-color: #184b6d;
+  width: 800px;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.selfpic{
+  width: 380px;
+  transform: translate(-50%,-8.55%);
+  position: absolute;
+}
+.intro{
+  width: 800px;
+  height: 450px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+}
+.intro1{
+  background-color: #f4b41a;
+  color: #001a2c;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  font-size: 30px;
+}
+.intro1 h1{
+  margin: 0;
+  margin-left: 320px;
+  margin-top: -10px;
+}
+.intro h5{
+  margin:0;
+  margin-left: 325px;
+}
+.intro2{
+  background-color: #00233a;
+  color: white;
+  width:74%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.introduction{
+  width: 70%;
+  margin: 20px;
+  font-size: 18px;
+  text-align:left;
+}
+
+
+
+
+.infos{
+  width: 800px;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.info1{
+  width: 40%;
+  height: 100%;
+  background-color: #00233a;
+  color: white;
+}
+.info1 h1{
+  margin:0;
+  margin-left: 5px;
+  font-size: 22px;
+}
+.info1 h4{
+  margin:0;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.info1 p{
+  margin:0;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.line{
+  background-color: white;
+  width: 95%;
+  height: .5px;
+  margin: 40px 0;
+
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.color{
+  background-color: #f4b41a;
+  height: 20px;
+  width: 30px;
+}
+.skl{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  align-items: center;
+}
+.pinfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.pinfo h3{
+  margin:0;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.skillsinfo{
+  margin: 10px 0;
+}
+.percentbox{
+  background-color: white;
+  margin:  5px 0 12px 0;
+  height: 6px;
+  width: 250px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.percent{
+  background-color: #f4b41a;
+  height: 100%;
+  border-radius: 20px;
+}
+.info2{
+  width: 60%;
+  height: 100%;
+  background-color: #dcdcdc;
+}
+
+.title .exp{
+  color: #00233a;
+  margin: 15px 0 10px 0;
+  font-size: 22px;
+  padding-right: 0px;
+  border-bottom: #001a2c 1px solid;
+}
+.info2margin{
+  margin: 20px  40px ;
+}
+.org .orgtitle{
+  font-size: 16px;
+  margin: 0;
+}
+.org .orgtitleproject{
+  font-size: 16px;
+  margin: 5px 0 3px 0;
+}
+.org .year{
+  color: #184b6d;
+  font-size: 18px;
+  margin: 0px 0 0 0;
+}
+.org .position{
+  margin: 2px 0 10px 0;
+  font-size: 15px;
+}
+.org ul{
+  font-size: 14px;
+  margin: 0;
+}
+.org li{
+  margin:5px 0;
+}
+.org a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #0037cf ;
+}
+
+
