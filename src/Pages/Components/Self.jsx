@@ -11,7 +11,7 @@ const Self = () => {
                 </h1>
                 <h1 >COMINGUES</h1>
                 <h5>
-                    BS Information Technology
+                    BS Information Technology Student
                 </h5>
             </div>
             <div className="intro2">
