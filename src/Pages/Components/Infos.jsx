@@ -117,7 +117,7 @@ const Infos = () => {
                     <div className="skillsinfo">
 
                         <div className="pinfo" style={{ marginTop: '20px' }}>
-                            <h3>ADRESS</h3>
+                            <h3>ADDRESS</h3>
                             <p>Poblacion, Bilar, Bohol</p>
                         </div>
 
