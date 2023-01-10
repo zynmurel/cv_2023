@@ -5,6 +5,61 @@ import { FcOpenedFolder } from "react-icons/fc";
 import { BsGithub } from "react-icons/bs";
 
 const Infos = () => {
+    //const skills = ['JAVASCRIPT', 'HTML', 'CSS', 'REACT', 'PHOTOSHOP', 'LARAVEL'];
+    const skills = [
+        {
+            title:'JAVASCRIPT',
+            color:'yellow',
+            fontSize:'25px',
+            percent:'80%'
+        },{
+            title:'HTML',
+            color:"rgb(255, 145, 0)",
+            fontSize:'25px',
+            percent:'85%'
+        },{
+            title:'CSS',
+            color:"rgb(45, 189, 255)",
+            fontSize:'25px',
+            percent:'80%'
+        },{
+            title:'REACT',
+            color:"rgb(45, 189, 255)",
+            fontSize:'25px',
+            percent:'85%'
+        },{
+            title:'PHOTOSHOP',
+            color:"rgb(45, 189, 255)",
+            fontSize:'25px',
+            percent:'80%'
+        },
+        {
+            title:'LARAVEL',
+            color:'red',
+            fontSize:'18px',
+            percent:'30%'
+        }
+    ]
+    const skillsList = (skillArr) => (
+        skillArr.map(sk => {
+            return (
+            
+            <div key={sk.title}>
+                <div className="skl">
+                            {sk.title === 'LARAVEL' && <FaLaravel color={sk.color} fontSize={sk.fontSize}/>}
+                            {sk.title === 'PHOTOSHOP' && <DiPhotoshop color={sk.color} fontSize={sk.fontSize}/>}
+                            {sk.title === 'REACT' && <DiReact color={sk.color} fontSize={sk.fontSize}/>}
+                            {sk.title === 'JAVASCRIPT' && <DiJavascript1 color={sk.color} fontSize={sk.fontSize}/>}
+                            {sk.title === 'CSS' && <DiCss3 color={sk.color} fontSize={sk.fontSize}/>}
+                            {sk.title === 'HTML' && <DiHtml5 color={sk.color} fontSize={sk.fontSize}/>}
+                            <h4>{sk.title}</h4>
+                        </div>
+                        <div className="percentbox">
+                            <div className="percent" style={{ width:sk.percent }}></div>
+                        </div>
+            </div>
+        )})
+    )
     return ( 
         <Box className='infos'>
             <div className="info2">
@@ -145,56 +200,7 @@ const Infos = () => {
                     </h1>
                     </div>
                     <div className="skillsinfo">
-                        <div className="skl">
-                            <DiJavascript1 color="yellow" fontSize={"25px"}/>
-                            <h4>JAVASCRIPT</h4>
-                        </div>
-                        <div className="percentbox">
-                            <div className="percent" style={{ width:"75%" }}></div>
-                        </div>
-
-                        <div className="skl">
-                            <DiHtml5 color="rgb(255, 145, 0)" fontSize={"25px"}/>
-                            <h4>HTML</h4>
-                        </div>
-                        <div className="percentbox">
-                            <div className="percent" style={{ width:"85%" }}></div>
-                        </div>
-                        
-
-                        <div className="skl">
-                            <DiCss3 color="rgb(45, 189, 255)" fontSize={"25px"}/>
-                            <h4>CSS</h4>
-                        </div>
-                        <div className="percentbox">
-                            <div className="percent" style={{ width:"80%" }}></div>
-                        </div>
-
-
-                        <div className="skl">
-                            <DiReact color="rgb(45, 189, 255)" fontSize={"25px"}/>
-                            <h4>REACT</h4>
-                        </div>
-                        <div className="percentbox">
-                            <div className="percent" style={{ width:"85%" }}></div>
-                        </div>
-
-                        <div className="skl">
-                            <DiPhotoshop color="rgb(45, 189, 255)" fontSize={"25px"}/>
-                            <h4>PHOTOSHOP</h4>
-                        </div>
-                        <div className="percentbox">
-                            <div className="percent" style={{ width:"80%" }}></div>
-                        </div>
-
-
-                        <div className="skl">
-                            <FaLaravel color="red" fontSize={"18px"}/>
-                            <h4>LARAVEL</h4>
-                        </div>
-                        <div className="percentbox">
-                            <div className="percent" style={{ width:"30%" }}></div>
-                        </div>
+                    {skillsList(skills)}
                     </div>
 
                 </div>
