@@ -40,7 +40,7 @@ const Infos = () => {
             percent:'30%'
         }
     ]
-    const skillsList = (skillArr) => (
+    const skillsList = (skillArr) => ( 
         skillArr.map(sk => {
             return (
             
