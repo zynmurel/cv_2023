@@ -37,7 +37,21 @@ const Infos = () => {
             title:'LARAVEL',
             color:'red',
             fontSize:'18px',
-            percent:'30%'
+            percent:'20%'
+        }
+    ]
+    const education = [
+        {
+            school:'BOHOL ISLAND STATE UNIVERSITY',
+            address:'BS Information Technology / Magsija, Balilihan, Bohol'
+        },
+        {
+            school:'BILAR NATIONAL HIGH SCHOOL',
+            address:'Yanaya, Bilar, Bohol'
+        },
+        {
+            school:'BILAR CENTRAL ELEMENTARY SCHOOL',
+            address:'Poblacion, Bilar, Bohol'
         }
     ]
     const skillsList = (skillArr) => ( 
@@ -59,6 +73,18 @@ const Infos = () => {
                         </div>
             </div>
         )})
+    )
+    const educationList = (eduArr) => (
+        eduArr.map(edu => (
+            <div className="org">
+                <h2 className="orgtitle">{edu.school}</h2>
+                <div className="posint">
+                    <p className="position" style={{  fontStyle:'italic' }}>
+                        {edu.address}
+                    </p>
+                </div>
+            </div>
+        ))
     )
     return ( 
         <Box className='infos'>
@@ -95,34 +121,9 @@ const Infos = () => {
                         EDUCATION
                     </h1>
             </div>
-
-            <div className="org">
-                <h2 className="orgtitle">BILAR CENTRAL ELEMENTARY SCHOOL</h2>
-                <div className="posint">
-                    <p className="position" style={{  fontStyle:'italic' }}>
-                        Poblacion, Bilar, Bohol
-                    </p>
-                </div>
-            </div>
-
-            <div className="org">
-                <h2 className="orgtitle">BILAR NATIONAL HIGH SCHOOL</h2>
-                <div className="posint">
-                    <p className="position" style={{  fontStyle:'italic' }}>
-                        Yanaya, Bilar, Bohol
-                    </p>
-                </div>
-            </div>
-
-
-            <div className="org">
-                <h2 className="orgtitle">BOHOL ISLAND STATE UNIVERSITY</h2>
-                <div className="posint">
-                    <p className="position" style={{  fontStyle:'italic' }}>
-                        BS Information Technology / Magsija, Balilihan, Bohol
-                    </p>
-                </div>
-            </div>
+            {
+                educationList(education)
+            }
                 </div>
                 <div className="info2margin">
                 <div className="title">
@@ -135,7 +136,7 @@ const Infos = () => {
                 <h2 className="orgtitleproject">GRAPHIC DESIGN PROJECTS</h2>
                 <div className="skl" style={{ margin:'0 0 20px 0', fontSize:15 }}>
                     <FcOpenedFolder fontSize={"22px"}/>
-                    <h4 style={{ margin:'0 0 0 5px' }}><a href="https://drive.google.com/drive/folders/1ca1HyLKhJdjFR9kzdWH8W08cIO3XMVpZ?usp=share_link" target='_blank'>All Graphic Design Projects</a></h4>
+                    <h4 style={{ margin:'0 0 0 5px' }}><a href="https://drive.google.com/drive/folders/1ca1HyLKhJdjFR9kzdWH8W08cIO3XMVpZ?usp=share_link" target='_blank'>Graphic Design Projects</a></h4>
                 </div>
             </div>
 
