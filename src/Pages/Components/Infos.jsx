@@ -28,16 +28,21 @@ const Infos = () => {
             fontSize:'25px',
             percent:'85%'
         },{
-            title:'PHOTOSHOP',
+            title:'REACT NATIVE',
             color:"rgb(45, 189, 255)",
             fontSize:'25px',
-            percent:'80%'
+            percent:'60%'
         },
         {
             title:'LARAVEL',
             color:'red',
             fontSize:'18px',
-            percent:'20%'
+            percent:'50%'
+        },{
+            title:'PHOTOSHOP',
+            color:"rgb(45, 189, 255)",
+            fontSize:'25px',
+            percent:'80%'
         }
     ]
     const education = [
@@ -63,6 +68,7 @@ const Infos = () => {
                             {sk.title === 'LARAVEL' && <FaLaravel color={sk.color} fontSize={sk.fontSize}/>}
                             {sk.title === 'PHOTOSHOP' && <DiPhotoshop color={sk.color} fontSize={sk.fontSize}/>}
                             {sk.title === 'REACT' && <DiReact color={sk.color} fontSize={sk.fontSize}/>}
+                            {sk.title === 'REACT NATIVE' && <DiReact color={sk.color} fontSize={sk.fontSize}/>}
                             {sk.title === 'JAVASCRIPT' && <DiJavascript1 color={sk.color} fontSize={sk.fontSize}/>}
                             {sk.title === 'CSS' && <DiCss3 color={sk.color} fontSize={sk.fontSize}/>}
                             {sk.title === 'HTML' && <DiHtml5 color={sk.color} fontSize={sk.fontSize}/>}
