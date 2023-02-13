@@ -156,7 +156,9 @@ const Infos = () => {
                         <li><a href="https://github.com/zynmurel/DOTA2-HTML-CSS" target='_blank'>DOTA 2 ( HTML / CSS )</a></li>
                         <li><a href="https://github.com/zynmurel/DOTA2-ReactApp" target='_blank'>DOTA 2 ( React )</a></li>
                         <li><a href="https://github.com/zynmurel/TodoList-ReactNative" target='_blank'>Todo List ( React Native )</a></li>
-                        <li><a href="https://github.com/zynmurel/waterBilling1" target='_blank'>Water Billing App ( React )</a></li>
+                        <li><a href="https://github.com/zynmurel/waterBilling1" target='_blank'>Water Billing App Frontend ( React )</a></li>
+                        <li><a href="https://github.com/zynmurel/waterbillingBackendv2" target='_blank'>Water Billing App Backend ( Laravel )</a></li>
+                        <li><a href="https://github.com/zynmurel/WaterMeterReader" target='_blank'>Water Billing Mobile App ( React Native )</a></li>
                     </ul>
             </div>
 
