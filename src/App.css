@@ -13,33 +13,33 @@
   }
 }
 
-body{
+body {
   background-color: #1a2b36;
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
 }
-.resume{
+.resume {
   width: 750px;
   height: 1200px;
   margin: 20px 0;
 }
-.self{
+.self {
   background-color: #184b6d;
   width: 750px;
-  height: 30%;
+  height: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
-.selfpic{
-  width: 380px;
-  transform: translate(-50%,-8.55%);
+.selfpic {
+  width: 340px;
+  transform: translate(-58%, -11.55%);
   position: absolute;
 }
-.intro{
+.intro {
   width: 750px;
   height: 450px;
   display: flex;
@@ -47,7 +47,7 @@ body{
   justify-content: center;
   flex-direction: column;
 }
-.intro1{
+.intro1 {
   background-color: #f4b41a;
   color: #001a2c;
   display: flex;
@@ -55,166 +55,161 @@ body{
   align-items: start;
   justify-content: center;
   width: 100%;
-  height: 170px;
+  height: 140px;
   font-size: 25px;
 }
-.intro1 h1{
+.intro1 h1 {
   margin: 0;
   margin-left: 338px;
   margin-top: -10px;
 }
-.intro h5{
-  margin:0;
+.intro h5 {
+  margin: 0;
   margin-left: 343px;
 }
-.intro2{
+.intro2 {
   background-color: #00233a;
   color: white;
-  width:74%;
+  width: 74%;
   height: 130px;
   display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: center;
 }
-.introduction{
+.introduction {
   width: 70%;
   margin: 20px;
   font-size: 18px;
-  text-align:left;
+  text-align: left;
 }
 
-
-
-
-.infos{
+.infos {
   width: 750px;
-  height: 70%;
+  height: 75%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
 }
-.info1{
+.info1 {
   width: 40%;
   height: 100%;
   background-color: #00233a;
   color: white;
 }
-.info1 h1{
-  margin:0;
+.info1 h1 {
+  margin: 0;
   margin-left: 5px;
   font-size: 22px;
 }
-.info1 h4{
-  margin:0;
+.info1 h4 {
+  margin: 0;
   margin-left: 5px;
   font-size: 15px;
 }
-.info1 p{
-  margin:0;
+.info1 p {
+  margin: 0;
   margin-left: 5px;
   font-size: 15px;
 }
-.line{
+.line {
   background-color: white;
   width: 95%;
-  height: .5px;
-  margin: 40px 0;
-
+  height: 0.5px;
+  margin: 20px 0;
 }
-.title{
+.title {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.color{
+.color {
   background-color: #f4b41a;
   height: 20px;
   width: 30px;
 }
-.skl{
+.skl {
   display: flex;
   flex-direction: row;
   margin-left: 30px;
   align-items: center;
 }
-.pinfo{
+.pinfo {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
 }
-.pinfo h3{
-  margin:0;
+.pinfo h3 {
+  margin: 0;
   margin-left: 5px;
   font-size: 16px;
 }
-.skillsinfo{
+.skillsinfo {
   margin: 10px 0;
 }
-.percentbox{
+.percentbox {
   background-color: white;
-  margin:  5px 0 12px 0;
+  margin: 5px 0 12px 0;
   height: 6px;
   width: 250px;
   margin-left: 30px;
   border-radius: 20px;
 }
-.percent{
+.percent {
   background-color: #f4b41a;
   height: 100%;
   border-radius: 20px;
 }
-.info2{
+.info2 {
   width: 60%;
   height: 100%;
-  background-color: #dcdcdc;
+  background-color: #fbfbfb;
 }
 
-.title .exp{
+.title .exp {
   color: #00233a;
   margin: 15px 0 10px 0;
   font-size: 22px;
   padding-right: 0px;
   border-bottom: #001a2c 1px solid;
 }
-.info2margin{
-  margin: 20px  40px ;
+.info2margin {
+  margin: 0px 40px;
 }
-.org .orgtitle{
+.org .orgtitle {
   font-size: 16px;
   margin: 0;
 }
-.org .orgtitleproject{
-  font-size: 16px;
-  margin: 5px 0 3px 0;
+.org .orgtitleproject {
+  font-size: 20px;
+  margin: 20px 0 3px 0;
 }
-.org .year{
+.org .year {
   color: #184b6d;
   font-size: 18px;
   margin: 0px 0 0 0;
 }
-.org .position{
-  margin: 2px 0 10px 0;
+.org .position {
+  margin: 2px 0 0px 0;
   font-size: 15px;
 }
-.org ul{
+.org ul {
   font-size: 14px;
   margin: 0;
 }
-.org li{
-  margin:5px 0;
+.org li {
+  margin: 5px 0;
 }
-.org a{
+.org a {
   text-decoration: none;
   font-weight: bold;
-  color: #0037cf ;
+  color: #0037cf;
 }
 
-
-@media screen and (max-width: 750px){
-    .resume{
-    transform: scale(.8) translateY(-14%);
-  }  
+@media screen and (max-width: 750px) {
+  .resume {
+    transform: scale(0.8) translateY(-14%);
+  }
 }
