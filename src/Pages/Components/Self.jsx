@@ -6,7 +6,7 @@ const Self = () => {
       <img src="/12.png" alt="selfpic" className="selfpic" />
       <div className="intro">
         <div className="intro1">
-          <h1>SEAN MARUEL</h1>
+          <h1>SEAN MARUEL A.</h1>
           <h1>COMINGUES</h1>
           <h5>Aspirining Web Developer</h5>
         </div>
