@@ -13,9 +13,7 @@ const Self = () => {
         <div className="intro2">
           <div className="introduction">
             <p>
-              I'm a Software Developer with 2 years of experience in web and
-              mobile development. I focus on building scalable applications
-              while continuously learning new technologies.
+              A motivated developer who enjoys building practical web and mobile solutions with modern tools like React and Node.js. Always eager to learn and improve.
             </p>
           </div>
         </div>

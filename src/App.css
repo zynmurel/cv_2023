@@ -172,7 +172,7 @@ body {
 .title .exp {
   color: #00233a;
   margin: 15px 0 10px 0;
-  font-size: 22px;
+  font-size: 14px;
   padding-right: 0px;
   border-bottom: #001a2c 1px solid;
 }
@@ -180,7 +180,7 @@ body {
   margin: 0px 20px;
 }
 .org .orgtitle {
-  font-size: 16px;
+  font-size: 13px;
   margin: 0;
 }
 .org .orgtitleproject {
@@ -194,7 +194,7 @@ body {
 }
 .org .position {
   margin: 2px 0 0px 0;
-  font-size: 15px;
+  font-size: 12px;
 }
 .org ul {
   font-size: 14px;

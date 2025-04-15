@@ -133,7 +133,7 @@ const Infos = () => {
         <h2 className="orgtitle">{edu.school}</h2>
         <div className="posint">
           <p className="position">{edu.address}</p>
-          <p style={{ marginTop: 0, marginBottom: 5 }}>{edu.year}</p>
+          <p style={{ marginTop: 0, marginBottom: 5, fontSize:12 }}>{edu.year}</p>
         </div>
       </div>
     ));
@@ -148,11 +148,11 @@ const Infos = () => {
             <h2 className="year">2022-2023</h2>
             <h2 className="orgtitle">Information Technology Student - BISU</h2>
             <div className="posint">
-              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
+              <p style={{ fontWeight: "bold", fontSize: 13.5, marginBottom: -2 }}>
                 * Water Billing System (React, React Native, Laravel)
               </p>
 
-              <ul>
+              <ul style={{fontSize: 13.5, marginBottom: -2 }}>
                 <li>
                   Developed a water billing system as a thesis project to record
                   water meter readings in Balilihan, Bohol. Built the frontend
@@ -169,22 +169,22 @@ const Infos = () => {
               Software Developer - DX Form Corporation
             </h2>
             <div className="posint">
-              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
+              <p style={{ fontWeight: "bold", fontSize: 13.5, marginBottom: -2 }}>
                 * TimeTracker Project (Next.js T3)
               </p>
 
-              <ul>
+              <ul  style={{fontSize: 13.5, marginBottom: -2 }}>
                 <li>
                   Developed a time-tracking system for monitoring employees
                   working within an organization and its branches.
                 </li>
               </ul>
-              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
-                * PasaJob (React, Next.js, Express, Mini-Program)
+              <p style={{ fontWeight: "bold", fontSize: 13.5, marginBottom: -2 }}>
+                * Pasajob (React, Next.js, Express, Mini-Program)
               </p>
-              <ul>
+              <ul  style={{fontSize: 13.5, marginBottom: -2 }}>
                 <li>
-                  Worked on both frontend and backend of PasaJob, an online
+                  Worked on PasaJob, an online
                   platform connecting employers and job seekers in the
                   Philippines through referrals.
                 </li>
@@ -193,27 +193,38 @@ const Infos = () => {
                   within GCash, using a different IDE for GCash Mini-Programs.
                 </li>
               </ul>
-              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
-                * Ebiyahe Project (React & Express)
+              <p style={{ fontWeight: "bold", fontSize: 13.5, marginBottom: -2 }}>
+                * eAccess (React Vite & Express)
               </p>
-              <ul>
+              <ul  style={{fontSize: 13.5, marginBottom: -2 }}>
                 <li>
-                  Developed a B2B online travel business portal for a travel
-                  company.
+                  B2B Online Travel Business Portal
                 </li>
                 <li>
                   Built features that help businesses manage bookings and travel
-                  services efficiently.
+                  services.
+                </li>
+              </ul>
+
+              <p style={{ fontWeight: "bold", fontSize: 13.5, marginBottom: -2 }}>
+                * eKaka (NextJS & Express)
+              </p>
+              <ul  style={{fontSize: 13.5, marginBottom: -2 }}>
+                <li>
+                  Real-Time Gaming and Betting Platform
+                </li>
+                <li>
+                  Contributed to the development of a web platform for competitive gaming with real-time streaming and secure betting features.
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="title" style={{ paddingTop: 5 }}>
+          <div className="title" style={{ paddingTop: 0 }}>
             <h1 className="exp">EDUCATION</h1>
           </div>
-          <div style={{ paddingLeft : 10}}>
-          {educationList(education)}
+          <div style={{ paddingLeft: 10 }}>
+            {educationList(education)}
           </div>
         </div>
         {/* <div className="info2margin">
@@ -223,7 +234,7 @@ const Infos = () => {
               <BsGithub fontSize={"21px"} />
               <h4 style={{ margin: "0 0 0 5px" }}>Github Repositories:</h4>
             </div>
-            <ul>
+            <ul  style={{fontSize: 13.5, marginBottom: -2 }}>
               <li>
                 <a
                   href="https://github.com/zynmurel/DOTA2-HTML-CSS"
