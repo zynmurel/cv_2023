@@ -22,7 +22,7 @@ body {
 }
 .resume {
   width: 750px;
-  height: 1200px;
+  height: 1100px;
   margin: 20px 0;
 }
 .self {
@@ -35,7 +35,7 @@ body {
   flex-direction: row;
 }
 .selfpic {
-  width: 340px;
+  width: 310px;
   transform: translate(-58%, -11.55%);
   position: absolute;
 }
@@ -177,7 +177,7 @@ body {
   border-bottom: #001a2c 1px solid;
 }
 .info2margin {
-  margin: 0px 40px;
+  margin: 0px 20px;
 }
 .org .orgtitle {
   font-size: 16px;

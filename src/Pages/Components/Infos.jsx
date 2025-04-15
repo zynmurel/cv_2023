@@ -129,12 +129,10 @@ const Infos = () => {
     });
   const educationList = (eduArr) =>
     eduArr.map((edu) => (
-      <div className="org">
+      <div className="org" style={{ paddingTop: 5 }}>
         <h2 className="orgtitle">{edu.school}</h2>
         <div className="posint">
-          <p className="position" style={{ fontStyle: "italic" }}>
-            {edu.address}
-          </p>
+          <p className="position">{edu.address}</p>
           <p style={{ marginTop: 0, marginBottom: 5 }}>{edu.year}</p>
         </div>
       </div>
@@ -146,49 +144,79 @@ const Infos = () => {
           <div className="title">
             <h1 className="exp">EXPERIENCE</h1>
           </div>
-
           <div className="org">
-            <h2 className="year">2021-2022</h2>
-            <h2 className="orgtitle">GRAPHIC DESIGN</h2>
+            <h2 className="year">2022-2023</h2>
+            <h2 className="orgtitle">Information Technology Student - BISU</h2>
             <div className="posint">
+              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
+                * Water Billing System (React, React Native, Laravel)
+              </p>
+
               <ul>
                 <li>
-                  Worked with school organization ( SSG and Campus Access ) and
-                  created images and layouts using Adobe Photoshop.
+                  Developed a water billing system as a thesis project to record
+                  water meter readings in Balilihan, Bohol. Built the frontend
+                  using React, the mobile application with React Native, and the
+                  backend with Laravel.
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="org">
-            <h2 className="year">2021-2022</h2>
-            <h2 className="orgtitle">SOFTWARE DEVELOPMENT</h2>
+          <div className="org" style={{ paddingTop: 10 }}>
+            <h2 className="year">2023-2025</h2>
+            <h2 className="orgtitle">
+              Software Developer - DX Form Corporation
+            </h2>
             <div className="posint">
+              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
+                * TimeTracker Project (Next.js T3)
+              </p>
+
               <ul>
                 <li>
-                  Developed a Web Application for Water Billing System using
-                  React (Front-end) and Laravel (Back-end) as part of our
-                  Capstone Project and Research.
+                  Developed a time-tracking system for monitoring employees
+                  working within an organization and its branches.
+                </li>
+              </ul>
+              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
+                * PasaJob (React, Next.js, Express, Mini-Program)
+              </p>
+              <ul>
+                <li>
+                  Worked on both frontend and backend of PasaJob, an online
+                  platform connecting employers and job seekers in the
+                  Philippines through referrals.
                 </li>
                 <li>
-                  Gained practical experience in Web development during an
-                  internship focused on Digital Transformation.
+                  Developed and maintained the GJobs mini-program, embedded
+                  within GCash, using a different IDE for GCash Mini-Programs.
+                </li>
+              </ul>
+              <p style={{ fontWeight: "bold", fontSize: 15, marginBottom: -2 }}>
+                * Ebiyahe Project (React & Express)
+              </p>
+              <ul>
+                <li>
+                  Developed a B2B online travel business portal for a travel
+                  company.
                 </li>
                 <li>
-                  Collaborated with fellow interns to create the OJT Attendance
-                  Web System using React and GraphQL for our final group
-                  project.
+                  Built features that help businesses manage bookings and travel
+                  services efficiently.
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="title">
+          <div className="title" style={{ paddingTop: 5 }}>
             <h1 className="exp">EDUCATION</h1>
           </div>
+          <div style={{ paddingLeft : 10}}>
           {educationList(education)}
+          </div>
         </div>
-        <div className="info2margin">
+        {/* <div className="info2margin">
           <div className="org">
             <h2 className="orgtitleproject">WEB DEVELOPMENT PROJECTS</h2>
             <div className="skl" style={{ margin: "0 0 5px 0", fontSize: 15 }}>
@@ -246,7 +274,7 @@ const Infos = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="info1">
@@ -279,7 +307,43 @@ const Infos = () => {
             <div className="color"></div>
             <h1>SKILLS</h1>
           </div>
-          <div className="skillsinfo">{skillsList(skills)}</div>
+          <div
+            className="skillsinfo"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: 10,
+              padding: "0 20px",
+            }}
+          >
+            {[
+              "Git",
+              "NodeJS",
+              "Laravel",
+              "Express",
+              "Prisma",
+              "Next.js",
+              "React",
+              "React Native",
+              "Tailwind CSS",
+            ].map((skill) => {
+              return (
+                <div
+                  style={{
+                    padding: "5px 10px",
+                    borderRadius: 20,
+                    background: "#f4b41a",
+                    color: "#00233a",
+                    fontWeight: "bold",
+                    flex: "none",
+                    width: "50%",
+                  }}
+                >
+                  <p>{skill}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
         <div className="line"></div>
       </div>

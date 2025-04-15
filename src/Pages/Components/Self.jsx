@@ -8,15 +8,14 @@ const Self = () => {
         <div className="intro1">
           <h1>SEAN MARUEL A.</h1>
           <h1>COMINGUES</h1>
-          <h5>Aspiring Web Developer</h5>
+          <h5>Full-Stack Developer</h5>
         </div>
         <div className="intro2">
           <div className="introduction">
             <p>
-              I recently graduated with a Bachelor of Science degree in
-              Information Technology and have gained practical experience in web
-              development. I am eager to further enhance my coding skills for
-              future endeavors.{" "}
+              I'm a Software Developer with 2 years of experience in web and
+              mobile development. I focus on building scalable applications
+              while continuously learning new technologies.
             </p>
           </div>
         </div>
